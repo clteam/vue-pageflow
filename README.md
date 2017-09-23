@@ -1,6 +1,6 @@
-# multipage
-基于vue2.0 的多页面 pageflow
-> A Vue.js MultiPage project
+# vue multipage
+
+A Vue.js MultiPage project
 
 ## Build Setup
 
@@ -27,5 +27,10 @@ npm run e2e
 npm test
 ```
 
-# vue 多页面配置
+## 修改配置
+* build
+  - build.js  修改 dstDir
+  
+* config
+  - index.js  修改 assetsPublicPath
 

@@ -9,7 +9,7 @@ function resolve (dir) {
 }
 
 module.exports = {
-  entry: utils.getEntries('./src/page/**/*.js'),
+  entry: utils.getEntries('./src/pages/**/*.js'),
   output: {
     path: config.build.assetsRoot,
     filename: '[name].js',
@@ -23,9 +23,6 @@ module.exports = {
       'vue$': 'vue/dist/vue.esm.js',
       '@': resolve('src'),
     }
-  },
-  externals: {
-    'jquery':'window.$'
   },
   plugins: [],
   module: {
